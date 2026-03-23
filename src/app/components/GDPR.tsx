@@ -168,14 +168,7 @@ export default function GDPRCompliance() {
             ensure that business financial information remains secure and confidential.
           </p>
           <p style={{ marginTop: 12 }}>
-            For more details about how we handle user data, please refer to our{" "}
-            <a
-              href="/privacy-policy"
-              style={{ color: "#a855f7", fontWeight: 500, textDecoration: "none" }}
-            >
-              Privacy Policy
-            </a>
-            .
+            For more details about how we handle user data, please refer to our Privacy Policy.
           </p>
         </div>
 
