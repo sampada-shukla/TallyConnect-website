@@ -40,7 +40,7 @@ export function TermsOfService({ onBack }: TermsOfServiceProps) {
     },
     {
       title: "7. Contact Information",
-      content: "Questions about the Terms of Service should be sent to us at legal@tallyconnector.com.",
+      content: "Questions about the Terms of Service should be sent to us at info@averlonworld.com.",
     },
   ];
 

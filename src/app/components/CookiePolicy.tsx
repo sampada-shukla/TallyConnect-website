@@ -40,7 +40,7 @@ export function CookiePolicy({ onBack }: CookiePolicyProps) {
     },
     {
       title: "6. Contact Us",
-      content: "If you have questions about our use of cookies, please contact us at cookies@tallyconnector.com.",
+      content: "If you have questions about our use of cookies, please contact us at info@averlonworld.com.",
     },
   ];
 

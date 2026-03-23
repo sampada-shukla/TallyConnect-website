@@ -32,11 +32,11 @@ export function PrivacyPolicy({ onBack }: PrivacyPolicyProps) {
     },
     {
       title: "5. Your Rights",
-      content: "You have the right to access, correct, or delete your personal information. You may also object to or restrict certain processing of your information. To exercise these rights, please contact us at privacy@tallyconnector.com.",
+      content: "You have the right to access, correct, or delete your personal information. You may also object to or restrict certain processing of your information. To exercise these rights, please contact us at info@averlonworld.com.",
     },
     {
       title: "6. Contact Us",
-      content: "If you have any questions about this Privacy Policy, please contact us at privacy@tallyconnector.com.",
+      content: "If you have any questions about this Privacy Policy, please contact us at info@averlonworld.com.",
     },
   ];
 

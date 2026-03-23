@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, LayoutDashboard, Download, LogOut, BookOpen } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
+import tallyConnectLogo from "../../assets/tallylogo.png"
 
 interface HeaderProps {
   onLoginClick: () => void;
@@ -150,19 +151,24 @@ export function Header({ onLoginClick, onNavigate }: HeaderProps) {
     >
       <div className="max-w-7xl mx-auto px-6 py-2.5 flex items-center justify-between gap-4">
         {/* Logo */}
-        <motion.div
-          className="flex items-center gap-2 cursor-pointer w-40 flex-shrink-0"
-          whileHover={{ scale: 1.05 }}
-          transition={{ type: "spring", stiffness: 400 }}
-          onClick={() => { onNavigate("/"); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-        >
-          <div className="flex gap-1">
-            <div className="w-2 h-2 rounded-full bg-cyan-500"></div>
-            <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-            <div className="w-2 h-2 rounded-full bg-[#002855]"></div>
-          </div>
-          <span className="font-bold text-base text-gray-900">Tally Connect</span>
-        </motion.div>
+   {/* Logo */}
+<motion.div
+  className="flex items-center gap-2 cursor-pointer w-40 flex-shrink-0"
+  whileHover={{ scale: 1.05 }}
+  transition={{ type: "spring", stiffness: 400 }}
+  onClick={() => { onNavigate("/"); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+>
+  <img
+    src={tallyConnectLogo}
+    alt="Tally Connect"
+    style={{
+      height: "34px",
+      width: "auto",
+      objectFit: "contain",
+    }}
+  />
+  <span className="font-bold text-base text-gray-900">Tally Connect</span>
+</motion.div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8 ml-2">
